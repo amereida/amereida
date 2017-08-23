@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700");
+body {
+  font-family: "Crimson Text", serif;
+  font-size: 18px;
+  color: #180020;
+  background-color: #F7F7F7; }
+
+h1 {
+  font-weight: normal;
+  text-align: left;
+  text-transform: lowercase; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  max-width: 800px;
+  margin: 1.5rem auto;
+  text-align: justify;
+  position: relative; }
+  .container p {
+    font-size: 21.6px;
+    line-height: 150%;
+    font-weight: 100;
+    hyphens: auto; }
+    .container p.small {
+      font-size: 14.4px; }
+    .container p.notice {
+      display: block;
+      /*
+      background-color: $color-fg;
+      color: $color-bg;
+      */
+      padding: 1em 2em;
+      text-align: center;
+      margin: 0;
+      font-style: italic; }
+
+.block {
+  display: flex;
+  flex-direction: row;
+  background-color: #FFF; }
+  .block .side {
+    width: 400px;
+    min-height: 400px;
+    padding: 1em 2em;
+    display: flex-item; }
+    .block .side.right {
+      background-image: url("../img/torres-sq.png");
+      background-position: center center; }
+
+a {
+  color: #2E90FC;
+  text-decoration: none; }
+  a:hover {
+    color: #02458f;
+    text-decoration: underline; }
+
+img.block {
+  width: 100%;
+  height: auto;
+  margin: 1em 0;
+  clear: left; }
+
+/*# sourceMappingURL=style.css.map */
